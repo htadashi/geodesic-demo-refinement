@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="gemini-svg.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="9.9492134"
+     inkscape:cx="33.419727"
+     inkscape:cy="-2.0604644"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3" />
+  <!-- Jet black background -->
+  <!-- Light grey dotted path -->
+  <!-- Medium grey lines -->
+  <!-- Pure white Geodesic -->
+  <g
+     id="g3"
+     transform="scale(0.25)">
+    <rect
+       width="64"
+       height="64"
+       rx="16"
+       fill="#000000"
+       id="rect1"
+       style="fill:#000080"
+       x="0"
+       y="0" />
+    <path
+       d="M 12,40 C 20,10 44,10 52,40"
+       fill="none"
+       stroke="#b3b3b3"
+       stroke-width="3"
+       stroke-dasharray="4, 4"
+       opacity="0.6"
+       id="path1" />
+    <path
+       d="M 12,40 Q 32,30 52,40"
+       fill="none"
+       stroke="#ffffff"
+       stroke-width="5"
+       stroke-linecap="round"
+       id="path3" />
+  </g>
+</svg>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Enhancing non-expert user demonstrations with the geodesic heat flow">
+  <meta name="keywords" content="Learning from demonstration, Dynamic Movement Primitives, Geometric Mechanics">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enhancing non-expert user demonstrations with the geodesic heat flow</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Enhancing non-expert user demonstrations with the geodesic heat
+              flow</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Hugo Tadashi M. Kussaba<sup>1</sup>,</span>
+              <span class="author-block">Xin Ma<sup>2</sup>,</span>
+              <span class="author-block">Rafael I. Cabral Muchacho<sup>3</sup>,</span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Riddhiman Laha<sup>4</sup>,</span>
+              <span class="author-block">Seth Hutchinson<sup>4</sup>,</span>
+              <span class="author-block">Luis Figueredo<sup>5</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Brasilia,</span>
+              <span class="author-block"><sup>2</sup>Technical University of Munich,</span>
+              <span class="author-block"><sup>3</sup>KTH Royal Institute of Technology,</span>
+              <span class="author-block"><sup>4</sup>Northeastern University,</span>
+              <span class="author-block"><sup>5</sup>University of Nottingham</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/htadashi/geodesic-demo-refinement"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=4UvgSGGeg5U" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              LfD (Learning from Demonstration) enables robots to learn movements from human demonstrations and
+              generalize these movements to complete a given task.
+              However, differences in physical embodiment imply that humans often perform actions differently from how a
+              robot would execute the same task, which can reduce the quality of demonstrations collected on robotic
+              platforms. Since the performance of LfD methods strongly depends on the quality of the demonstrations,
+              obtaining near-optimal examples remains challenging, even when demonstrations are provided by experts.
+              This paper addresses the issue of enhancing demonstration quality while preserving the original intention
+              of the user.
+              To achieve this, we propose the application of the geodesic heat flow to transform the originally
+              demonstrated movement, recorded in joint space, into a geodesic path in the robot's configuration space.
+              Our approach captures the underlying geometry of the configuration manifold through a Riemannian
+              formulation. In particular, when the robot inertia matrix is used as the Riemannian metric, the resulting
+              trajectories naturally reflect the system dynamics, leading to smoother motions with lower kinetic energy.
+              Experiments on a real robotic system validate the effectiveness of the proposed method.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/4UvgSGGeg5U" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+
+          <h2 class="title is-3">Interactive Visualizations</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              The interactive visualization below shows the evolution of a
+              demonstrated trajectory under the geodesic heat flow. Drag to
+              rotate the view and scroll to zoom.
+            </p>
+          </div>
+
+          <div class="meshcat-container">
+            <iframe src="./geodesic_heat_flow.html" title="Geodesic Heat Flow visualization" loading="lazy"></iframe>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{kussaba2026geodesicheatflow,
+  author={Kussaba, Hugo Tadashi M. and Ma, Xin and Cabral Muchacho, Rafael I. and Laha, Riddhiman and Hutchinson, Seth and Figueredo, Luis},
+  title={Enhancing non-expert user demonstrations with the geodesic heat flow},
+  journal={IEEE Robotics and Automation Letters}
+}
+    </code></pre>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://arxiv.org/pdf/">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              The code for this website has been adapted from <a href="https://nerfies.github.io">nerfies.github.io</a>
+              and is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
